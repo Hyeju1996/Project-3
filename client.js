@@ -22,11 +22,6 @@ document.getElementById("appointmentForm").addEventListener("submit", function(e
     alert("Appointment booked!\nName: " + name + "\nEmail: " + email + "\nDate: " + date + "\nTime: " + time);
   });
 
-// JavaScript to handle the button click event
-document.getElementById("myButton").addEventListener("click", function() {
-  // Redirect to another page
-  window.location.href = "buy.html";
-});
 
 
   

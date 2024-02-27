@@ -1,0 +1,41 @@
+*{
+  background-color: #fecaca;
+}
+
+.container {
+    width: 300px;
+    margin: 50px auto;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid ;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #f87171;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ef4444;
+  }
